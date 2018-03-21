@@ -1,0 +1,39 @@
+{
+  "name": "bot-or-not",
+  "version": "0.1.0",
+  "description": "A user agent parser that determines whether a request is from a robot, crawler, spider, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramumb/bot-or-not.git"
+  },
+  "keywords": [
+    "useragent",
+    "user",
+    "agent",
+    "bot",
+    "robot",
+    "crawler",
+    "spider",
+    "web",
+    "link",
+    "checker",
+    "validator",
+    "feed",
+    "reader",
+    "parser"
+  ],
+  "author": "Reginald Mullin <ramumb@yahoo.com> (http://www.reginaldmullin.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ramumb/bot-or-not/issues"
+  },
+  "homepage": "https://github.com/ramumb/bot-or-not#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.4"
+  }
+}
