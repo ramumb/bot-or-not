@@ -2,14 +2,25 @@
 
 // The following list of User Agent strings are mostly from
 // http://www.useragentstring.com/pages/useragentstring.php
+// http://www.user-agents.org/
+// http://www.botreports.com/
 
 var BOTS = [
+	// CATCH_ALLS
+	'bot',
+	'crawler',
+	'spider',
+	'feed',
+	'scraper',
+
 	// CRAWLERS
 	'80legs',
 	'abachobot',
 	'accoona-ai-agent',
 	'addsugarspiderbot',
-	'adsbot',
+	'adidxbot',
+	'adsbot-google',
+	'amznkassocbot',
 	'anyapexbot',
 	'aolbuild',
 	'applebot',
@@ -36,7 +47,9 @@ var BOTS = [
 	'developers.google.com/+/web/snippet',
 	'diamondbot',
 	'discobot',
+	'docomo',
 	'dotbot',
+	'duckduckbot',
 	'earthcom.info',
 	'emeraldshield.com webbot',
 	'envolk[its]spider',
@@ -59,6 +72,7 @@ var BOTS = [
 	'girafabot',
 	'googlebot',
 	'googlebot-image',
+	'grapeshot',
 	'gurujibot',
 	'happyfunbot',
 	'hl_ftien_spider',
@@ -96,6 +110,7 @@ var BOTS = [
 	'morning paper',
 	'msnbot',
 	'msrbot',
+	'msr-isrccrawler',
 	'mvaclient',
 	'mxbot',
 	'netresearchserver',
@@ -184,6 +199,7 @@ var BOTS = [
 	'yahooseeker',
 	'yahooseeker-testing',
 	'yandexbot',
+	'yandexdirect',
 	'yandeximages',
 	'yandexmetrika',
 	'yasaklibot',
@@ -303,7 +319,7 @@ if (!Array.prototype.some) {
 
 
 /**
- * This checks whether the user agent is a bot or not.
+ * This method checks if the user agent is a bot or not.
  * @param {string}  A user agent string to check against
  * @return {boolean} Returns true if match otherwise false
  */

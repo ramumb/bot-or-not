@@ -2,9 +2,9 @@ bot-or-not
 ======================
 
 This module checks whether a particular user agent string is from a known robot,
-crawler, spider, link checker, validator, feed reader, etc.  A match for such
-user agents would result in `bot-or-not` returning a value of true.  Conversely,
-a value of false would be returned if a match wasn't found for a user agent.
+crawler, spider, link checker, validator, feed reader, etc.  A match for such a
+user agent would result in `bot-or-not` returning a value of true.  Conversely,
+a value of false would be returned if a match wasn't found for the user agent.
 
 ## Installation
 

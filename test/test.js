@@ -128,4 +128,29 @@ describe('#botOrNot', function() {
         var result = botOrNot('Opera/9.80 (J2ME/MIDP; Opera Mini/9.80 (S60; SymbOS; Opera Mobi/23.348; U; en) Presto/2.5.25 Version/10.54');
         expect(result).to.be.false;
     });
+    
+    it('should return true for bot', function() {
+        var result = botOrNot('bot');
+        expect(result).to.be.true;
+    });
+    
+    it('should return true for crawler', function() {
+        var result = botOrNot('crawler');
+        expect(result).to.be.true;
+    });
+    
+    it('should return true for spider', function() {
+        var result = botOrNot('spider');
+        expect(result).to.be.true;
+    });
+    
+    it('should return true for feed', function() {
+        var result = botOrNot('feed');
+        expect(result).to.be.true;
+    });
+    
+    it('should return false for someting', function() {
+        var result = botOrNot('something');
+        expect(result).to.be.false;
+    });
 });
