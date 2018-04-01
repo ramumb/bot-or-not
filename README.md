@@ -1,6 +1,9 @@
 bot-or-not
 ======================
 
+[![Build Status](https://travis-ci.org/ramumb/bot-or-not.svg?branch=master)](https://travis-ci.org/ramumb/bot-or-not)
+[![Coverage Status](https://coveralls.io/repos/github/ramumb/bot-or-not/badge.svg?branch=master)](https://coveralls.io/github/ramumb/bot-or-not?branch=master)
+
 This module checks whether a particular user agent string is from a known robot,
 crawler, spider, link checker, validator, feed reader, etc.  A match for such a
 user agent would result in `bot-or-not` returning a value of true.  Conversely,
