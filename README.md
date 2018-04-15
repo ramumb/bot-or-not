@@ -1,5 +1,5 @@
-bot-or-not
-======================
+bot-or-not(string)
+========================================
 
 [![Build Status](https://travis-ci.org/ramumb/bot-or-not.svg?branch=master)](https://travis-ci.org/ramumb/bot-or-not)
 [![Coverage Status](https://coveralls.io/repos/github/ramumb/bot-or-not/badge.svg?branch=master)](https://coveralls.io/github/ramumb/bot-or-not?branch=master)
